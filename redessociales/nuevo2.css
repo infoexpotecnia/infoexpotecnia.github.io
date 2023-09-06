@@ -1,0 +1,12 @@
+h1{font-family: broadway;
+font-size:500%; text-align:center; color:purple; text-decoration:underline}
+h2{text-align:center; font-family:broadway; font-size:200%}
+body{background-color:pink;}
+h3{text-align:center; font-family:broadway; font-size:300%; text-decoration:underline}
+p{text-align:center;font-size:200%;}
+a:link {
+color: blue;
+}
+a:visited {
+color: red;
+}
