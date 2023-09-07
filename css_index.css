@@ -1,0 +1,121 @@
+/*    
+    font-family: 'Chakra Petch', sans-serif;
+
+    font-family: 'Itim', cursive;
+
+    font-family: 'Sarala', sans-serif;
+
+    font-family: 'VT323', monospace;
+*/
+* {
+    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	scroll-behavior: smooth;
+    
+}
+
+body {
+    background-color: #bf9198;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+li {
+    list-style: none;
+    margin-bottom: 0.4rem;
+}
+
+a {
+    color: white;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.header {
+    background-color: #30151e;
+    min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 1em;
+    padding-left: 1em;
+	width: 100%;
+    color: white;
+}
+
+.cursiva {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+}
+
+.monospace{
+    font-family: 'VT323', monospace;
+    font-size: 1.3em;
+}
+
+.content {
+
+    flex: 1;
+}
+
+.main-title {
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+.header-buttons {
+    display: flex;
+	justify-content: space-between ;
+	align-items: center;
+	gap: 5em;
+    font-family: 'Sarala', sans-serif;
+}
+
+.index{
+    display: grid;
+    grid-template-columns: 1fr;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.index_list {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    background-color: #30151e;
+    justify-self: center;
+    padding: 1em 2.5em 1em 2.5em;
+    margin: 0.5em;
+    border-radius: 1em;
+    
+}
+
+.year {
+    text-align: center;
+    text-decoration: underline dashed;
+    padding: 0rem 0rem 0.7rem 0rem; 
+    
+}
+
+.footer {
+    background-color: #131417;
+    color: white;
+    padding: 1em;
+    margin-top: 6em;
+    text-align: end;
+    width: 100%;
+}
+
+@media(max-width: 768px){
+    .header-buttons{
+        display: none;
+    }
+}
+
